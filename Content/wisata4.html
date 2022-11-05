@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 
     <title>Dolan Purwodadi</title>
   </head>
@@ -15,25 +15,25 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-      <a class="navbar-brand" href="#">Dolan Purwodadi</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-      <!-- end navbar -->
+        <a class="navbar-brand" href="../index.html">Dolan Purwodadi</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Beranda <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#tentang">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <!-- end navbar -->
 
     <!-- carosel -->
     <section>
@@ -44,16 +44,24 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Gambar/gulingan.jpg" class="d-block w-100" alt="...">
+              <img src="../Gambar/wisata1/16.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="Gambar/jatipohon.jpg" class="d-block w-100" alt="...">
+              <img src="../Gambar/wisata1/17.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="Gambar/widuri.jpg" class="d-block w-100" alt="...">
+              <img src="../Gambar/wisata1/18.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../Gambar/wisata1/19.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../Gambar/wisata1/20.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
@@ -95,19 +103,46 @@
     <!-- tabel -->
     <section>
       <div class="container">
-        <div class="tabel">
-          
+        <table class="table table-hover text-capitalize text-justify text-center">
+            <tbody>
+              <tr class="bg bg-success text-light">
+                <td class="font-weight-bold">Nama Tempat</td>
+                <td>Api Abadi Mrapen</td>
+              </tr>
+              <tr class="bg bg-success text-light">
+                <td class="font-weight-bold">Alamat</td>
+                <td>Desa Manggarmas, Kecamatan Godong, Kabupaten Grobogan, Provinsi Jawa Tengah.</td>
+              </tr>
+              <tr class="bg bg-success text-light">
+                <td class="font-weight-bold">fasilitas</td>
+                <td>area parkir, landmark, toilet, spot selfie, aula pertemuan</td>
+              </tr>
+              <tr class="bg bg-success text-light">
+                <td class="font-weight-bold">harga tiket</td>
+                <td>rp. 2.500,00</td>
+              </tr>
+              <tr class="bg bg-success text-light">
+                <td class="font-weight-bold">jam buka</td>
+                <td>setiap hari 24 jam</td>
+              </tr>
+              <tr class="bg bg-success text-light">
+                <td class="font-weight-bold">kontak</td>
+                <td>089 507 781 221</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
     </section>
     <!-- end tabel -->
+
     <!-- footer -->
     <section>
-      <footer class="bg-success">
-        <a class="footer">Create With Love By<span>i</span>Dev</a>
-      </footer>
-    </section>
-    <!-- end footer -->
+        <footer class="bg-success">
+          <a class="footer">Create With Love By Irfan Mahdi</a>
+        </footer>
+      </section>
+      <!-- end footer -->
+
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
